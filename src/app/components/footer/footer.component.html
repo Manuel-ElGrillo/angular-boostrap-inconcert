@@ -1,0 +1,19 @@
+<footer style="background-color: #F2F4F7;" class="py-5">
+
+    <div class="container d-flex flex-column-reverse align-items-center flex-md-row justify-content-md-between">
+
+        <span class="py-2">{{copy}}</span>
+
+        <div *ngFor="let link of links" class="py-2">
+            <a
+                class="text-decoration-none text-secondary" 
+                routerLink={{link.url}}>
+                    {{link.text}}
+            </a>
+        </div>
+
+        <div></div>
+
+    </div>
+
+</footer>

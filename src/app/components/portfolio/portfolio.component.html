@@ -1,0 +1,37 @@
+<section style="background-color: #F2F4F7;" class="pb-5">
+
+    <div class="container">
+
+        <h2 class="text-center pt-5 pb-3 fw-bold" style="color: #1D2351;">
+            {{title_line_1}} <br>
+            {{title_line_2}}
+        </h2>
+
+        <p class="text-center py-3 fs-5">
+            Súmale valor al viaje de tu cliente en cada punto de contacto a través del chat, mail, teléfono, WhatsApp y <br> otros canales. Con inConcert vende más, brinda un mejor servicio y reduce costes operativos.
+        </p>
+
+        <p class="text-center py-3 fs-5">
+            Conoce los productos que componen nuestra plataforma omnicanal y modular diseñada para optimizar los <br> contactos con tus clientes y los procesos de marketing, ventas, servicio y cobranza.
+        </p>
+
+        <ng-container>
+
+            <div class="d-md-flex justify-content-between">
+
+                <div class="card p-2 p-lg-4 mx-auto mx-md-2 my-3" style="width: 22rem;" *ngFor="let card of cards">
+                    <img src={{card.img}} class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                      <h5 class="card-title text-center text-lg-start" style="color: #1D2351;">{{card.title}}</h5>
+                      <p class="card-text text-center text-lg-start">{{card.text}}</p>
+                      <a href="#" class="text-decoration-none text-center text-lg-start">{{card.link}}</a>
+                    </div>
+                  </div>
+
+            </div>
+
+        </ng-container>
+
+    </div>
+
+</section>
