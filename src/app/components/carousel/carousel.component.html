@@ -1,1 +1,55 @@
-<p>carousel works!</p>
+<ngb-carousel *ngIf="images">
+	<ng-template ngbSlide>
+        <div class="d-flex">
+            <div class="picsum-img-wrapper carousel-img">
+                <img [src]="images[0]" alt="..." />
+            </div>
+            <div class="picsum-img-wrapper carousel-img">
+                <img [src]="images[1]" alt="..." />
+            </div>
+            <div class="picsum-img-wrapper carousel-img">
+                <img [src]="images[2]" alt="..." />
+            </div>
+        </div>
+
+        <div class="d-flex">
+            <div class="picsum-img-wrapper carousel-img">
+                <img [src]="images[0]" alt="..." />
+            </div>
+            <div class="picsum-img-wrapper carousel-img">
+                <img [src]="images[1]" alt="..." />
+            </div>
+            <div class="picsum-img-wrapper carousel-img">
+                <img [src]="images[2]" alt="..." />
+            </div>
+        </div>
+	</ng-template>
+
+    <ng-template ngbSlide>
+        <div class="d-flex">
+            <div class="picsum-img-wrapper carousel-img">
+                <img [src]="images[0]" alt="..." />
+            </div>
+            <div class="picsum-img-wrapper carousel-img">
+                <img [src]="images[1]" alt="..." />
+            </div>
+            <div class="picsum-img-wrapper carousel-img">
+                <img [src]="images[2]" alt="..." />
+            </div>
+        </div>
+
+        <div class="d-flex">
+            <div class="picsum-img-wrapper carousel-img">
+                <img [src]="images[0]" alt="..." />
+            </div>
+            <div class="picsum-img-wrapper carousel-img">
+                <img [src]="images[1]" alt="..." />
+            </div>
+            <div class="picsum-img-wrapper carousel-img">
+                <img [src]="images[2]" alt="..." />
+            </div>
+        </div>
+	</ng-template>
+
+	
+</ngb-carousel>

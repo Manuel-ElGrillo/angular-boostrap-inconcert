@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class ContactCenterComponent {
 
+  src = '/assets/img/ic-site-imagen-1@2x.png';
+
 }

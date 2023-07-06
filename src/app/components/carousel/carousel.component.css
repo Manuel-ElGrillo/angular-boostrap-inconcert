@@ -1,0 +1,11 @@
+.carousel-img {
+    display: block;
+    width: fit-content;
+    height: 80px; 
+    background-color: #E9E9E9;
+    padding: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}

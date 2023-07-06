@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class CarouselComponent {
 
+  images = [
+    "/assets/img/ic-site-carrousel-1@2x.png",
+    "/assets/img/ic-site-carrousel-2@2x.png",
+    "/assets/img/ic-site-carrousel-3@2x.png",
+  ]
+
 }
